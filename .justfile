@@ -5,4 +5,4 @@ dev:
   yarn run dev
 
 build:
-  yarn build
+  yarn run build
