@@ -8,20 +8,20 @@ import TheCrew from "./routes/TheCrew"
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/boardgame-nomad",
     element: <App />, 
     errorElement: <ErrorPage />, 
     children: [
       {   
-        path: "/",
+        path: "/boardgame-nomad/",
         element: <Home />, 
       },
       {
-        path: "/categories",
+        path: "/boardgame-nomad/categories",
         element: <Categories />, 
       },
       {
-        path: "/the-crew",
+        path: "/boardgame-nomad/the-crew",
         element: <TheCrew />,
       },
     ],

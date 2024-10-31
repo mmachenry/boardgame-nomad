@@ -1,7 +1,11 @@
+import { useLocation } from 'react-router-dom'
+
 const ErrorPage = () => {
+  const location = useLocation()
+
   return (
     <>
-      Welcome to Boardgame Nomad!
+      Path not found { location.pathname }
     </>
   )
 }

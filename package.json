@@ -1,13 +1,15 @@
 {
   "name": "boardgame-nomad",
+  "homepage": "https://mmachenry.github.io/boardgame-nomad",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base /boardgame-nomad",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages --dist dist"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",

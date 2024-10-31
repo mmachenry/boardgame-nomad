@@ -5,7 +5,7 @@ dev:
   yarn run dev
 
 build:
-  yarn run build --base "/boardgame-nomad"
+  yarn run build
 
-publish:
-  node scripts/publish.js
+deploy: build
+  yarn run deploy
