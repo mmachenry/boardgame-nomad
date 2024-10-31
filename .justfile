@@ -6,3 +6,6 @@ dev:
 
 build:
   yarn run build
+
+publish:
+  node scripts/publish.js
