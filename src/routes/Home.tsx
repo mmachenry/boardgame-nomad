@@ -9,6 +9,7 @@ const Home = () => {
       <List>
         <ListItem component={Link} to='/boardgame-nomad/categories'>Categories</ListItem>
         <ListItem component={Link} to='/boardgame-nomad/the-crew'>The Crew</ListItem>
+        <ListItem component={Link} to='/boardgame-nomad/just-one'>Just One</ListItem>
       </List>
     </>
   )

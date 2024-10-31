@@ -5,24 +5,31 @@ import ErrorPage from "./ErrorPage"
 import Home from "./routes/Home"
 import Categories from "./routes/Categories"
 import TheCrew from "./routes/TheCrew"
+import JustOne from "./routes/JustOne"
+
+const basepath = "/boardgame-nomad"
 
 export const router = createBrowserRouter([
   {
-    path: "/boardgame-nomad",
+    path: basepath,
     element: <App />, 
     errorElement: <ErrorPage />, 
     children: [
       {   
-        path: "/boardgame-nomad/",
+        path: basepath + "/",
         element: <Home />, 
       },
       {
-        path: "/boardgame-nomad/categories",
+        path: basepath + "/categories",
         element: <Categories />, 
       },
       {
-        path: "/boardgame-nomad/the-crew",
+        path: basepath + "/the-crew",
         element: <TheCrew />,
+      },
+      {
+        path: basepath + "/just-one",
+        element: <JustOne />,
       },
     ],
   }
