@@ -85,7 +85,7 @@ export const descriptors = [
   "needs power",
   "looks small",
   "is edible",
-  "get lighter",
+  "gets lighter",
   "rings",
   "freezes",
   ]
