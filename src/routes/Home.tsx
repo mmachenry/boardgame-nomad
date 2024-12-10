@@ -10,6 +10,7 @@ const Home = () => {
         <ListItem component={Link} to='/boardgame-nomad/categories'>Categories</ListItem>
         <ListItem component={Link} to='/boardgame-nomad/the-crew'>The Crew</ListItem>
         <ListItem component={Link} to='/boardgame-nomad/just-one'>Just One</ListItem>
+        <ListItem component={Link} to='/boardgame-nomad/smug-owl'>Smug Owl</ListItem>
       </List>
     </>
   )

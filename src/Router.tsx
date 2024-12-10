@@ -6,6 +6,7 @@ import Home from "./routes/Home"
 import Categories from "./routes/Categories"
 import TheCrew from "./routes/TheCrew"
 import JustOne from "./routes/JustOne"
+import SmugOwl from "./routes/SmugOwl"
 
 const basepath = "/boardgame-nomad"
 
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: basepath + "/just-one",
         element: <JustOne />,
+      },
+      {
+        path: basepath + "/smug-owl",
+        element: <SmugOwl />,
       },
     ],
   }
