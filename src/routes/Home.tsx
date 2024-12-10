@@ -1,16 +1,21 @@
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import { Link } from "react-router-dom"
+import { games, IGameMetaData } from "../lib/games"
 
 const Home = () => {
   return (
     <>
       <h1>Boardgame Nomad</h1>
       <List>
-        <ListItem component={Link} to='/boardgame-nomad/categories'>Categories</ListItem>
-        <ListItem component={Link} to='/boardgame-nomad/the-crew'>The Crew</ListItem>
-        <ListItem component={Link} to='/boardgame-nomad/just-one'>Just One</ListItem>
-        <ListItem component={Link} to='/boardgame-nomad/smug-owl'>Smug Owl</ListItem>
+        { games.map((game: IGameMetaData) => (
+          <ListItem
+            component={Link}
+            to={'/boardgame-nomad/' + game.path}
+            >
+            { game.name }
+          </ListItem>
+        ))}
       </List>
     </>
   )
