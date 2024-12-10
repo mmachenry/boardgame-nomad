@@ -8,7 +8,6 @@ Straight forward
 [Chameleon](https://boardgamegeek.com/boardgame/227072/the-chameleon)
 [Pictionary](https://boardgamegeek.com/boardgame/2281/pictionary)
 Trivial Pursuit
-Codenames
 The Voting Game
 Spyfall
 Werewords, Insider, More Insider
@@ -17,7 +16,17 @@ Poetry for Neanderthals
 
 More difficult, requires extra pieces
 ---
+[Codenames](https://boardgamegeek.com/boardgame/178900/codenames)
+For codes names, there could be a random, easy to type checksum that is
+stateless. A gamecode. When you generate a game, the code for it appears at
+the bottom of the screen. Loading this app with the game code lets you open
+this exact game on another screen and view the decode sheet. Or possibly it's
+not even necessary. You could generate a decode sheet on a separate device
+without even linking the two. But... it's helpful if you decide to change
+devices.
+
 [So Clover](https://boardgamegeek.com/boardgame/329839/so-clover)
+This one might just be too much work to write everything out for it to work
 
 Need to investigate
 ---
