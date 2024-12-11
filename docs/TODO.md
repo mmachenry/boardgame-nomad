@@ -1,3 +1,15 @@
+* Implement a pass-and-play secret feature. If I view my info by clicking on
+a button, that button should be greyed out so as to only be viewable once
+without resetting the whole game to ensure everyone looks at exactly one piece
+of information.
+
+* Translate words to other languages
+
+* Allow wavelengths value to be hidden and improve visual
+
+* put baseurl into the env and use  import.meta.env.BASE_URL put them
+ in env.production and env.dev
+
 Straight forward
 ---
 [Wavelength](https://boardgamegeek.com/boardgame/262543/wavelength)

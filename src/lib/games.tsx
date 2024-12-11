@@ -4,6 +4,7 @@ import Categories from "../routes/Categories"
 import TheCrew from "../routes/TheCrew"
 import JustOne from "../routes/JustOne"
 import SmugOwl from "../routes/SmugOwl"
+import Wavelength from "../routes/Wavelength"
 
 export interface IGameMetaData {
   name: string,
@@ -41,5 +42,12 @@ export const games: IGameMetaData[] = [
     path: "smug-owl",
     element: <SmugOwl />,
     bggUrl: "https://boardgamegeek.com/boardgame/393343/smug-owls",
+  },
+  {
+    name: "Wavelength",
+    description: "",
+    path: "wavelength",
+    element: <Wavelength />,
+    bggUrl: "https://boardgamegeek.com/boardgame/262543/wavelength",
   },
   ]
