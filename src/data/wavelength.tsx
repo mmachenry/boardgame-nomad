@@ -1,4 +1,4 @@
-export const cards = [
+export const cards: [string,string][] = [
   [ 'Bad', 'Good' ],
   [ 'Mildly addictive', 'Highly addictive' ],
   [ 'Hot', 'Cold' ],

@@ -17,7 +17,7 @@ const Wavelength = () => {
   const [round, setRound] = useState<IWavelengthRound|null>(null)
 
   const getRound = () => {
-    const card = _.sample(cards)
+    const card: [string,string] = _.sample(cards)??["",""]
     setRound({
       lowExtreme: card[0],
       highExtreme: card[1],

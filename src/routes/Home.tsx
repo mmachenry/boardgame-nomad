@@ -8,10 +8,11 @@ const Home = () => {
     <>
       <h1>Boardgame Nomad</h1>
       <List>
-        { games.map((game: IGameMetaData) => (
+        { games.map((game: IGameMetaData, index: number) => (
           <ListItem
             component={Link}
             to={'/boardgame-nomad/' + game.path}
+            key={index}
             >
             { game.name }
           </ListItem>

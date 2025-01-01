@@ -5,6 +5,7 @@ import TheCrew from "../routes/TheCrew"
 import JustOne from "../routes/JustOne"
 import SmugOwl from "../routes/SmugOwl"
 import Wavelength from "../routes/Wavelength"
+import ChangeMyMind from "../routes/ChangeMyMind"
 
 export interface IGameMetaData {
   name: string,
@@ -49,5 +50,12 @@ export const games: IGameMetaData[] = [
     path: "wavelength",
     element: <Wavelength />,
     bggUrl: "https://boardgamegeek.com/boardgame/262543/wavelength",
+  },
+  {
+    name: "ChangeMyMind",
+    description: "",
+    path: "change-my-mind",
+    element: <ChangeMyMind />,
+    bggUrl: "https://boardgamegeek.com/boardgame/386961/change-my-mind",
   },
   ]
