@@ -1,18 +1,22 @@
-* Implement a pass-and-play secret feature. If I view my info by clicking on
-a button, that button should be greyed out so as to only be viewable once
-without resetting the whole game to ensure everyone looks at exactly one piece
-of information.
-
+General
+---
 * Translate words to other languages
 
-* Allow wavelengths value to be hidden and improve visual
+* Implement a pass-and-play secret feature. If I view my info by clicking
+  on a button, that button should be greyed out so as to only be viewable
+  once without resetting the whole game to ensure everyone looks at
+  exactly one piece of information.
 
 * put baseurl into the env and use  import.meta.env.BASE_URL put them
- in env.production and env.dev
+  in env.production and env.dev
+
+Game specific
+---
+* Allow wavelengths value to be hidden and improve visual and make an
+  auto scoring device with players using a slider
 
 Straight forward
 ---
-[Wavelength](https://boardgamegeek.com/boardgame/262543/wavelength)
 [Change My Mind](https://boardgamegeek.com/boardgame/386961/change-my-mind)
 [Balderdash](https://boardgamegeek.com/boardgame/163/balderdash)
 [Wits and Wagers](https://boardgamegeek.com/boardgame/20100/wits-and-wagers)
@@ -50,4 +54,3 @@ Liebrary: Also known as Locale
 Malarky: Also known as The New Yorker Cartoon Caption Game
 Quips & Quotes: Also known as Smithsonian Artifact or Fiction
 Sniglets: Also known as Tabloid Teasers
-Wise and Otherwise: Also known as You Might Be a Redneck
