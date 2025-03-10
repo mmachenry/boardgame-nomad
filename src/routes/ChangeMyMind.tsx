@@ -4,17 +4,18 @@ import Typography from '@mui/material/Typography'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import ListItemText from '@mui/material/ListItemText'
-import { allCards } from "../data/changemymind"
+import ChangeMyMindCards from "../data/changemymind.yaml"
 import _ from "lodash"
 
-interface IRiddle {
-  firstDescriptor: string,
-  conjunction: string,
-  secondDescriptor: string,
+interface IChangeMyMindCard {
+  prompt: string,
+  options: string[],
 }
 
+const allCards = [...ChangeMyMindCards.normal, ...ChangeMyMindCards.nsfw]
+
 const ChangeMyMind = () => {
-  const [card, setCard] = useState<IRiddle|null>(null)
+  const [card, setCard] = useState<IChangeMyMindCard|null>(null)
 
   const getCard = () => {
     setCard(_.sample(allCards))
