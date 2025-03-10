@@ -115,7 +115,7 @@ normal:
       - Alien
       - The Matrix
       - Jurrassic Park
-      - Mad Max: Fury Road
+      - 'Mad Max: Fury Road'
       - Avatar
   - prompt: That's Gross
     options:
@@ -330,7 +330,7 @@ normal:
   - prompt: Worst holiday
     options:
       - Valentine's Day
-      - Christopher Columbus Day-
+      - Christopher Columbus Day
       - Easter
       - President's Day
       - April Fool's Day
