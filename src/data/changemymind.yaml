@@ -8,7 +8,7 @@ normal:
       - The ocean
   - prompt: School field trip
     options:
-      - Amussement park
+      - Amusement park
       - Archaeological site
       - Ice cream factory
       - National park
@@ -114,7 +114,7 @@ normal:
     options:
       - Alien
       - The Matrix
-      - Jurrassic Park
+      - Jurassic Park
       - 'Mad Max: Fury Road'
       - Avatar
   - prompt: That's Gross
@@ -264,7 +264,7 @@ normal:
       - Hearing
       - Smell
       - Taste
-  - prompt: Is it a sandwhich?
+  - prompt: Is it a sandwich?
     options:
       - Taco
       - Hot dog
@@ -319,7 +319,7 @@ normal:
       - Uggs
       - Whole Foods
       - A mirror selfie
-      - Yoa pants
+      - Yoga pants
   - prompt: Minor inconvenience
     options:
       - Forget my wallet
@@ -537,7 +537,7 @@ nsfw:
       - Orgy
       - Earth explodes
       - Alien invasion
-      - Sacrifise for the greater good, but I'm not remembered
+      - Sacrifice for the greater good, but I'm not remembered
   - prompt: Licked off my body
     options:
       - Whipped cream
@@ -611,7 +611,7 @@ nsfw:
   - prompt: I'm drunk
     options:
       - McDonald's
-      - Burger Kind
+      - Burger King
       - Taco Bell
       - Jack in the Box
       - Wendy's
@@ -688,7 +688,7 @@ nsfw:
   - prompt: Doesn't exist
     options:
       - The American dream
-      - Cosequences for the rich
+      - Consequences for the rich
       - God
       - Santa
       - Selfless cops
@@ -702,7 +702,7 @@ nsfw:
   - prompt: Don't put that in my butt!
     options:
       - Cactus
-      - Bag of frzen peas
+      - Bag of frozen peas
       - Horse's dick
       - Gallon of hot sauce
       - Light bulb
@@ -740,7 +740,7 @@ nsfw:
       - Have ass cancer
       - My parents walk in on me
       - Stranded on a deserted island
-      - A million moquito bites
+      - A million mosquito bites
   - prompt: Worst movie title (yes, they're real)
     options:
       - Cannibal Women in the Avocado Jungle of Death
@@ -825,7 +825,7 @@ nsfw:
       - Someone high on PCP
       - Amber Heard & Johnny Depp
       - Kids from Stranger Things
-  - prompt: Alernate reality
+  - prompt: Alternate reality
     options:
       - Farts are compliments
       - Bread was never invented
@@ -1032,7 +1032,7 @@ nsfw:
     options:
       - Finger painting
       - Paddling the pink canoe
-      - Dailing the rotary phone
+      - Dialing the rotary phone
       - DIY time
       - Girls night in
   - prompt: Take a shot
@@ -1053,7 +1053,7 @@ nsfw:
     options:
       - A ghost gently tickling my toes
       - That noise my pet makes
-      - The informercial volume going to 11
+      - The infomercial volume going to 11
       - Covered in ants
       - Nuclear bomb sirens
   - prompt: Epitome of whiteness
@@ -1066,7 +1066,7 @@ nsfw:
   - prompt: Explosive diarrhea
     options:
       - Burning Man
-      - Handcufed in a cop car
+      - Handcuffed in a cop car
       - Roller coaster
       - Times Square NYE
       - A stall with no door
