@@ -17,7 +17,7 @@ Game specific
 
 Straight forward
 ---
-[Change My Mind](https://boardgamegeek.com/boardgame/386961/change-my-mind)
+[Decrypto](https://boardgamegeek.com/boardgame/225694/decrypto)
 [Balderdash](https://boardgamegeek.com/boardgame/163/balderdash)
 [Wits and Wagers](https://boardgamegeek.com/boardgame/20100/wits-and-wagers)
 [Wise and Otherwise](https://boardgamegeek.com/boardgame/2652/wise-and-otherwise)
@@ -29,6 +29,8 @@ Spyfall
 Werewords, Insider, More Insider
 Taboo
 Poetry for Neanderthals
+[Incohearent](https://boardgamegeek.com/boardgame/289020/incohearent)
+[Mad Gab](https://boardgamegeek.com/boardgame/764/mad-gab)
 
 More difficult, requires extra pieces
 ---

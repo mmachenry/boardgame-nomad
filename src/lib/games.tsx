@@ -6,13 +6,15 @@ import JustOne from "../routes/JustOne"
 import SmugOwl from "../routes/SmugOwl"
 import Wavelength from "../routes/Wavelength"
 import ChangeMyMind from "../routes/ChangeMyMind"
+import MadGab from "../routes/MadGab"
+import TheGang from "../routes/TheGang"
 
 export interface IGameMetaData {
   name: string,
   description: string,
   path: string,
   bggUrl: string,
-  element: any, //FC<{}>,
+  element: any, //FIXME FC<{}>,
 }
 
 export const games: IGameMetaData[] = [
@@ -57,5 +59,19 @@ export const games: IGameMetaData[] = [
     path: "change-my-mind",
     element: <ChangeMyMind />,
     bggUrl: "https://boardgamegeek.com/boardgame/386961/change-my-mind",
+  },
+  {
+    name: "Mad Gab",
+    description: "",
+    path: "mad-gab",
+    element: <MadGab />,
+    bggUrl: "https://boardgamegeek.com/boardgame/764/mad-gab",
+  },
+  {
+    name: "The Gang (2024)",
+    description: "",
+    path: "the-gang",
+    element: <TheGang />,
+    bggUrl: "https://boardgamegeek.com/boardgame/411567/the-gang",
   },
   ]
