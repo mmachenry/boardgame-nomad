@@ -56,3 +56,4 @@ Liebrary: Also known as Locale
 Malarky: Also known as The New Yorker Cartoon Caption Game
 Quips & Quotes: Also known as Smithsonian Artifact or Fiction
 Sniglets: Also known as Tabloid Teasers
+[Letter Jam](https://boardgamegeek.com/boardgame/275467/letter-jam)

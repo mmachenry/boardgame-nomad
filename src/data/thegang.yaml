@@ -60,9 +60,7 @@ specialists:
     example: "Arsène has 10, 7 in his hand and says: \"I have 17 total.\" Doris has Q, 3 and says: \"I have 13 total.\" Trudy has A, 10 and says: \"I have 21 total.\""
   - name: Con Artist
     number: 9
-    rules: "Once the pocket cards have been dealt in Round 1, and everyone has looked at their cards, place them face down in a pile in the center of the table, shuffle them, and then redistribute them. Important: You must only mix the cards that were previously dealt and redistribute them. If you paid attention to which cards you had before they
-were mixed up, you know two of the cards that are somewhere in your fellow
-players' hands"
+    rules: "Once the pocket cards have been dealt in Round 1, and everyone has looked at their cards, place them face down in a pile in the center of the table, shuffle them, and then redistribute them. Important: You must only mix the cards that were previously dealt and redistribute them. If you paid attention to which cards you had before they were mixed up, you know two of the cards that are somewhere in your fellow players' hands"
   - name: Muscle
     number: 10
     rules: "Decide which of you will take the \"Muscle\" specialist card and place it in front of you. During the showdown, this player beats any other player with a hand of the same ranking."

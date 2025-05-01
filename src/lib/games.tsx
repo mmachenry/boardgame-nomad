@@ -8,6 +8,7 @@ import Wavelength from "../routes/Wavelength"
 import ChangeMyMind from "../routes/ChangeMyMind"
 import MadGab from "../routes/MadGab"
 import TheGang from "../routes/TheGang"
+import Decrypto from "../routes/Decrypto"
 
 export interface IGameMetaData {
   name: string,
@@ -73,5 +74,12 @@ export const games: IGameMetaData[] = [
     path: "the-gang",
     element: <TheGang />,
     bggUrl: "https://boardgamegeek.com/boardgame/411567/the-gang",
+  },
+  {
+    name: "Decrypto",
+    description: "",
+    path: "decrypto",
+    element: <Decrypto />,
+    bggUrl: "https://boardgamegeek.com/boardgame/225694/decrypto",
   },
   ]
