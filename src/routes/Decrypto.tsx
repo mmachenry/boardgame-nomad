@@ -13,7 +13,7 @@ import WordListData from "../data/wordlist.yaml"
 import _ from "lodash"
 
 const Decrypto = () => {
-  const [words, setWords] = useState<str[]|null>(null)
+  const [words, setWords] = useState<string[]|null>(null)
   const [code, setCode] = useState<number[]|null>(null)
 
   const getWords = () => {
