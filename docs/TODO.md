@@ -31,6 +31,9 @@ Taboo
 Poetry for Neanderthals
 [Incohearent](https://boardgamegeek.com/boardgame/289020/incohearent)
 [Mad Gab](https://boardgamegeek.com/boardgame/764/mad-gab)
+[Person Do Thing](https://boardgamegeek.com/boardgame/456114/person-do-thing)
+[What on earth are you talking about](https://boardgamegeek.com/boardgame/368857/what-on-earth-are-you-talking-about)
+[Top Ten](https://boardgamegeek.com/boardgame/300905/top-ten)
 
 More difficult, requires extra pieces
 ---
@@ -57,3 +60,4 @@ Malarky: Also known as The New Yorker Cartoon Caption Game
 Quips & Quotes: Also known as Smithsonian Artifact or Fiction
 Sniglets: Also known as Tabloid Teasers
 [Letter Jam](https://boardgamegeek.com/boardgame/275467/letter-jam)
+[Turing Machine](https://boardgamegeek.com/boardgame/356123/turing-machine)
